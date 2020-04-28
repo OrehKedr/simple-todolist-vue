@@ -1,20 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Todo application</h1>
+    <hr>
+    <!-- 
+      Компонент <router-view /> указывает на место монтирования компонента/страницы.
+      Монтируемый компонет/страница соответвует пути(url).
+      Настройки прописываются для экземпляра Router в router.js.
+     -->
+    <router-view />
   </div>
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
 <style>
 #app {
