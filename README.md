@@ -1,9 +1,7 @@
 # vue-practice
 
-## Project setup
-```
-npm install
-```
+У каждого frontend-разработчика должен быть свой todo list с баром и ...  
+В проекте реализованы роутинг на стороне клиента, однофайловые компоненты vue.  
 
 ### Compiles and hot-reloads for development
 ```
